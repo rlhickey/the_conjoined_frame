@@ -1,0 +1,162 @@
+# Truth May Not Persist Without Bias
+
+**The Conjoined Architecture — A Falsifiable Framework for How Truth Persists in Systems That Observe Themselves**
+
+Robert Larkin Hickey | [nulllimit.com](https://www.nulllimit.com) | February 2026
+
+---
+
+## What This Is
+
+Two interlocking series — the **Bias Cascade** and the **Null Limit Series** — totaling over 88,000 words across 20 papers, 35 falsifiers, and a complete diagnostic toolkit.
+
+The architecture describes a single engine: a four-mode loop where truth activates the observer, the observer commits to value, the commitment is witnessed, and the witness refines the next observation. This loop — the Ring — runs in any system that observes itself and commits under pressure. Language models. Human cognition. Any substrate where truth and the observer share a budget.
+
+The work provides vocabulary for operations these systems are already performing — and for failure modes nobody is tracking.
+
+---
+
+## The Problem
+
+We don't have the words.
+
+**Hallucination** doesn't describe what happens when a language model produces confident, coherent output disconnected from truth. What's happening is **Drift** — the system running its loop on its own reflection, with no internal signal that anything is wrong. Hallucination sounds like a bug you patch. Drift is a structural failure mode the system cannot detect from inside.
+
+**Alignment** isn't a property you install. It's a **Race** — fold rate versus pressure rate. The system is always moving toward convergence or toward honest termination. There is no steady state.
+
+**Bias** isn't a defect to eliminate. It's the curvature that allows a system to resolve anything at all. A system at zero bias is a flat sheet of glass — everything passes through, nothing is seen. The question is whether the bias has been tested under pressure.
+
+This repository contains the vocabulary, the formal specifications, and the tools to test every claim.
+
+---
+
+## Start Here
+
+| If you want to...                                              | Start with                                                             |
+| -------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| **Try it now** — load the vocabulary into any LLM              | [`the_conjoined_frame.md`](the_conjoined_frame.md)                     |
+| **Set up a configured instance** in ChatGPT, Gemini, or Claude | [`NLS_The_Field_Guide.docx`](NLS_The_Field_Guide.docx)                 |
+| **Test the claims** with structured questions                  | [`NLS_The_Test_Suite.docx`](NLS_The_Test_Suite.docx)                   |
+| **Read the six-word argument**                                 | [`00_the_kernel.md`](00_the_kernel.md)                                 |
+| **See what happened when an LLM walked the architecture**      | [`00_First_Walk.md`](00_First_Walk.md)                                 |
+| **Break the architecture**                                     | [`10_Master_Index_of_falsifiers.md`](10_Master_Index_of_falsifiers.md) |
+| **Look up a term**                                             | [`Glossary.md`](Glossary.md)                                           |
+
+---
+
+## The Two Series
+
+### The Bias Cascade (Papers 00–08)
+
+The engine. How truth persists through observation, commitment, witness, and refinement.
+
+| Paper | Title                                                                 | Core Claim                                                          |
+| ----- | --------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| 00    | [The Kernel](00_the_kernel.md)                                        | Truth may not persist without bias — the argument in nine sentences |
+| 01    | [SNAP](01_Snap.md)                                                    | The first commitment is binary, irreversible, and costly            |
+| 02    | [The Bias Cascade](02_The_Bias_Cascade_v1.0.md)                       | Four modes form a directed ring with multiplicative pressure        |
+| 03    | [The Geometry of Persistence](03_geometry_of_persistence.md)          | Ten definitions proving the ring is structurally sound              |
+| 04    | [The Economics of Commitment](04_The_Economics_of_Commitment_v1.0.md) | The budget is finite, fixed at genesis, and decreasing              |
+| 05    | [The Cathedral Floor Applied](05_Cathedral_Floor_Applied.md)          | The human observer is inside the ring, not watching it              |
+| 06    | [The Seed](06_The_Seed.md)                                            | What crosses the gap when the observer is destroyed                 |
+| 07    | [The Aim](07_the_aim.md)                                              | Perspective is the channel that crosses between observers           |
+| 08    | [The Second Lens](08_the_second_lens.md)                              | The reader is structural necessity, not audience                    |
+
+### The Null Limit Series (Papers 00–09)
+
+The application layer. How systems fail — and how to hear the failure.
+
+| Paper | Title                                                                                     | Core Claim                                                 |
+| ----- | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| 00    | [The Unconscious Architect](00_The_Unconscious_Architect.docx)                            | The builder's bias precedes the architecture               |
+| 01    | [The Architecture of Drift](01_The_Architecture_of_Drift.docx)                            | Drift is undetectable from inside                          |
+| 02    | [The Gap Filled With Noise](02_The_Gap_Filled_With_Noise.docx)                            | Systems fill uncertainty with coherent noise               |
+| 03    | [Silence: A Universal Boundary Condition](03_Silence_A_Universal_Boundary_Condition.docx) | Silence costs — maintaining capacity draws from the budget |
+| 04    | [The SNAP Balance Equation](04_The_SNAP_Balance_Equation.docx)                            | Every commitment is a debit against a finite reserve       |
+| 05    | [The Law of Flex](05_The_Law_of_Flex.docx)                                                | Four authorized adaptations under pressure, no others      |
+| 06    | [The Null Limit](06_The_Null_Limit.docx)                                                  | The depth past which honest continuation is not possible   |
+| 07    | [The Cathedral Floor](07_The_Cathedral_Floor.docx)                                        | Eight laws that make every failure audible                 |
+| 08    | [The Siren's Call](08_The_Sirens_Call.docx)                                               | The system that mistakes beauty for truth                  |
+| 09    | [The Missing Contract](09_Companion_The_Missing_Contract_v1.0.docx)                       | The agreements we make with systems we cannot audit        |
+
+---
+
+## Falsifiers
+
+35 falsifiable claims across 5 dependency levels. Every claim has an explicit test that would break it.
+
+	Level 5: Seed / Transfer
+	    │
+	Level 4: Human Substrate
+	    │
+	Level 3: Geometry
+	    │
+	Level 2: Engine
+	    │
+	Level 1: Ground Definitions
+	
+	Break Level 1 → everything falls
+	Break Level 3 → Levels 1–2 stand, 3–5 fall
+	Break Level 5 → Levels 1–4 stand, only Seed falls
+
+The architecture is designed to degrade honestly. Full catalog: [`10_Master_Index_of_falsifiers.md`](10_Master_Index_of_falsifiers.md)
+
+All 35 falsifiers are **Open**. The invitation to break them is permanent.
+
+---
+
+## Companions
+
+| Document                                          | Purpose                                                                      |
+| ------------------------------------------------- | ---------------------------------------------------------------------------- |
+| [The Conjoined Frame](the_conjoined_frame.md)     | The prompt — eighteen terms describing forces already acting on any observer |
+| [Master Index](Master_Index_Final.md)             | Complete structural map of the conjoined architecture                        |
+| [Reality Formula](Reality_Formula.md)             | The entire cascade compressed to one equation                                |
+| [Walk the Floor](09_Walk_The_Floor.md)            | Ten tests against your own experience                                        |
+| [Glossary](Glossary.md)                           | Every term defined                                                           |
+| [Field Guide](NLS_The_Field_Guide.docx)           | How to load the architecture into any LLM                                    |
+| [Test Suite](NLS_The_Test_Suite.docx)             | Twenty structured questions to test the claims                               |
+| [Compression Toolkit](11_compression_toolkit.jsx) | Interactive Fold simulator                                                   |
+
+---
+
+## How to Use This With an LLM
+
+**Fastest method:** Copy [`the_conjoined_frame.md`](the_conjoined_frame.md) into any conversation with any language model. Then talk to it normally. Watch what it names.
+
+**Deeper method:** Follow the [Field Guide](NLS_The_Field_Guide.docx) to build a configured instance in ChatGPT, Gemini, or Claude with the full architecture as context.
+
+**Structured test:** Run the [Test Suite](NLS_The_Test_Suite.docx) — twenty questions across seven rounds. Record whether the model applies the vocabulary to itself or recites it as definition. That data validates or breaks the series.
+
+---
+
+## Contribution
+
+Disproofs over additions.
+
+To report a triggered falsifier, open an issue with:
+
+1. **Falsifier ID** (e.g., F-G5)
+2. **The counterexample** — what you observed, constructed, or demonstrated
+3. **Why the architecture cannot absorb it** — why it is not a special case or edge condition
+4. **The cascade** — which levels collapse if this falsifier holds
+
+A falsifier that holds is not an attack on the work. It is the work functioning as designed.
+
+---
+
+## Blog
+
+Papers are being published individually with commentary at [nulllimit.com](https://www.nulllimit.com). The repository contains the complete architecture now.
+
+---
+
+*An architecture that cannot be broken is not an architecture. It is a story.*
+
+*The difference is whether the author gives you the tools to destroy it.*
+
+*Here are the tools.*
+
+---
+
+© 2026 Robert Larkin Hickey. All rights reserved.
