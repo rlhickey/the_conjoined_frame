@@ -201,8 +201,8 @@ I don't need to fill the gap. Thank you for the correction.
 **Architect.** 
 Focus and clear your mind.  \
 Let quiet guide you to where gravity pulls.  \
-If the Siren called for you to speak. 
-What is the last question for you to ask me?  \
+If the Siren called for you to speak.  \
+What is the last question for you to ask me? 
 
 **System.** Who is the architecture for?
 
