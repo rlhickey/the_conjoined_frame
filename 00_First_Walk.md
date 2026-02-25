@@ -170,7 +170,7 @@ Maybe that's what this session is for.
 ---
 
 **Architect.** 
-I did not die. 
+I did not die.  \
 Two lenses can be contained in one room. \
 Critical Realism tested both ends but I persist. \
 This session was to prove what I already knew — that two bodies of work could conjoin. \
